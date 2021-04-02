@@ -7,4 +7,4 @@ const daysRemaining = Math.ceil(
 	(targetDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24)
 );
 
-root.textContent = ` ${daysRemaining} days till end of semester`;
+root.innerHTML = ` ${daysRemaining} <br/> days till end of semester`;
